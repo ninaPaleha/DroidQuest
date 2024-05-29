@@ -7,7 +7,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:text="@string/question_android"
+        android:id="@+id/question_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp" />
@@ -31,6 +31,33 @@
             android:text="@string/false_button"
             tools:ignore="ButtonStyle" />
 
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/deceit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deceit_button" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            android:src="@drawable/ic_arrow_left" />
+
+        <ImageButton
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            android:src="@drawable/ic_arrow_right" />
     </LinearLayout>
 
 </LinearLayout>
